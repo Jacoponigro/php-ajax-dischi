@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="dist/app.css">
   </head>
   <body>
-    <p>ciao</p>
+    <header>
+      <img src="img/spotify.png" alt="">
+    </header>
+    <main>
+      
+    </main>
   </body>
 </html>
