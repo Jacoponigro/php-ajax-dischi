@@ -10,7 +10,9 @@
       <img src="img/spotify.png" alt="">
     </header>
     <main>
-      
+      <div class="poster-container">
+        
+      </div>
     </main>
   </body>
 </html>
