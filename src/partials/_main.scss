@@ -1,1 +1,22 @@
-
+main {
+  background-color: $bodybackground;
+  height: 80vh;
+  overflow: auto;
+  width: 70%;
+  margin: auto;
+}
+.album-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 50px;
+}
+.album-list li {
+  background-color: $headerbackground;
+  margin: 10px;
+  text-align: center;
+}
+img {
+  max-height: 180px;
+}

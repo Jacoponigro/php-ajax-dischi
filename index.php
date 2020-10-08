@@ -12,7 +12,6 @@
     <main>
       <div class="poster-container">
         <ul class="album-list">
-
         </ul>
 
       </div>
@@ -20,7 +19,7 @@
     <!-- hanldebars template -->
     <script id="template" type="text/x-handlebars-template">
       <li class="album">
-        <img src="{{poster}}">
+        <img class="poster"src="{{poster}}">
         <h4>{{title}}</h4>
         <p>{{author}}</p>
         <p>{{year}}</p>

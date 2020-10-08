@@ -16093,7 +16093,7 @@ var Handlebars = __webpack_require__(/*! handlebars */ "./node_modules/handlebar
 
 $(document).ready(function () {
   $.ajax({
-    "url": "../index.php",
+    "url": "server.php",
     "method": "GET",
     "success": function success(data) {
       for (var i = 0; i < data.length; i++) {
@@ -16106,7 +16106,7 @@ $(document).ready(function () {
           "poster": data[i]["poster"]
         };
         var html = template(context);
-        $(".album").append(html);
+        $(".album-list").append(html);
       }
     },
     "error": function error(err) {
