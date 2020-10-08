@@ -1,5 +1,4 @@
-<?php
-    $database = [
+<?php $database = [
         [
             'title' => 'New Jersey',
             'author' => 'Bon Jovi',

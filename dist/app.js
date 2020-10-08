@@ -16106,11 +16106,11 @@ $(document).ready(function () {
           "poster": data[i]["poster"]
         };
         var html = template(context);
-        $(".album-list").append(html);
+        $(".album").append(html);
       }
     },
     "error": function error(err) {
-      alert("E avvenuto un errore. " + err);
+      alert("Errore" + err);
     }
   });
 });
