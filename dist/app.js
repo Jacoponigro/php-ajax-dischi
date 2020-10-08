@@ -16093,12 +16093,12 @@ var Handlebars = __webpack_require__(/*! handlebars */ "./node_modules/handlebar
 
 $(document).ready(function () {
   $.ajax({
-    "url": "http://localhost/exercise/php-ajax-dischi/server.php",
+    "url": "../index.php",
     "method": "GET",
     "success": function success(data) {
       for (var i = 0; i < data.length; i++) {
-        var source = $("#cd-template").html();
-        var cdTemplate = Handlebars.compile(source);
+        var source = $("#template").html();
+        var template = Handlebars.compile(source);
         var context = {
           "title": data[i]["title"],
           "author": data[i]["author"],
