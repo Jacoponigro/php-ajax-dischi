@@ -11,21 +11,17 @@
     </header>
     <main>
       <div class="poster-container">
-        <ul class="album-list">
-
-        </ul>
-
+        <?php foreach ($database as $disc) { ?>
+        <div class="album">
+          <img class="poster" src="<?php echo $disc["poster"] ?>">
+          <div class="info">
+            <h3><?php echo $disc["title"] ?></h3>
+            <p><?php echo $disc["author"] ?></p>
+            <p><?php echo $disc["year"] ?></p>
+          </div>
+        </div>
+      <?php } ?>
       </div>
     </main>
-    <!-- hanldebars template -->
-    <script id="template" type="text/x-handlebars-template">
-      <li class="album">
-        <img src="{{poster}}">
-        <h4>{{title}}</h4>
-        <p>{{author}}</p>
-        <p>{{year}}</p>
-      </li>
-    </script>
-    <script src="dist/app.js"></script>
   </body>
 </html>

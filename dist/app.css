@@ -13,14 +13,8 @@ header {
   background-color: #2e3a46;
 }
 
-img {
+.spotify-logo {
   height: 30px;
   margin-left: 200px;
-}
-
-.poster-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
